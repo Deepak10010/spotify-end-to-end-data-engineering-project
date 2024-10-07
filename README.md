@@ -9,3 +9,6 @@ The ETL workflow was managed using AWS Lambda functions. A custom Python script 
 The project also involved configuring IAM roles to ensure secure communication between AWS services and using environment variables to keep sensitive information secure. AWS Glue was utilized to create metadata tables, enabling the structured data to be queried using Amazon Athena. The pipeline was automated with scheduled triggers for Lambda functions, and the entire process was monitored to ensure successful data ingestion and transformation, including moving processed data to different S3 folders for better data management.
 
 This project allowed for near real-time ingestion and transformation of Spotify data, enabling efficient storage and easy retrieval for analysis, with a focus on using serverless cloud infrastructure to minimize maintenance.
+
+
+![AWS](https://github.com/user-attachments/assets/2504cf64-a841-4c1d-a8fb-8e097af18645)
